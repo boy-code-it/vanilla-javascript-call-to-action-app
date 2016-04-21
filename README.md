@@ -1,4 +1,4 @@
 
-# vanilla-javascript-call-to-action-app
+# Vanilla Javascript Call to Action App
 Call to Action with Javascript
 
