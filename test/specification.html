@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Specification</title>
+    </head>
+    <body>
+        
+        <script src="../assets/javascript/vendor/jquery.js"></script>
+        <script src="../assets/javascript/vendor/handlebars.js"></script>
+        <script src="../assets/javascript/app.js"></script>
+        <script src="tests.js"></script>
+        <script>
+            test('Testing out the APP', function () {
+                it('It ought to have certain methods', function () {
+                    ok(APP.init ==='function', 'Ought to have an init method');
+                    ok(APP.start === 'function', 'Ought to have a start method');
+                });
+            });
+        </script>
+    </body>
+</html>
